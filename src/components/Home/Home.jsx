@@ -9,10 +9,11 @@ import { RegistretionStep } from "../Step/Step";
 import { FAQ } from "../Faq/FAQs";
 import { Testimonial } from "../Testimonial/Testimonial";
 import { SignUp } from "../Sign/Sign";
+import { Footer } from "../Footer/Footer";
 
 export const Home = () => {
     return(
-        <>
+      <div className="overflow-x-hidden">
         <Navbar/>
         <Header/>
         <Orgs/>
@@ -22,6 +23,7 @@ export const Home = () => {
       <FAQ/>
       <Testimonial/>
       <SignUp/>
-        </>
+  <Footer/>
+        </div>
     )
 }

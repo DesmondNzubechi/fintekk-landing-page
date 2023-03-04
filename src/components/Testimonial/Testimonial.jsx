@@ -56,6 +56,21 @@ const handPrev = () => {
     } else {
         setIndex(index - 1)
     }
+    if (Reviews.length - 1 === index) {
+        setFiBg('');
+        setSeBg('#172E80');
+        setThBg('')
+        setFiCol('#3a3a3a')
+        setSeCol('#fff')
+        setThCol('#3a3a3a')
+      } else if (Reviews.length - 2 === index) {
+        setFiBg('#172E80');
+        setSeBg('');
+        setThBg('')
+        setFiCol('#fff')
+        setSeCol('#3a3a3a')
+        setThCol('#3a3a3a')
+      } 
     
 }
 

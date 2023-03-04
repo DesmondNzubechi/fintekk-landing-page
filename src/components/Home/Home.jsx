@@ -6,6 +6,9 @@ import { User } from "../User/User";
 import { Orgs } from "../Orgs/Orgs";
 import { Services } from "../Services/Services";
 import { RegistretionStep } from "../Step/Step";
+import { FAQ } from "../Faq/FAQs";
+import { Testimonial } from "../Testimonial/Testimonial";
+import { SignUp } from "../Sign/Sign";
 
 export const Home = () => {
     return(
@@ -16,6 +19,9 @@ export const Home = () => {
         <User/>
       <Services/>
       <RegistretionStep/>
+      <FAQ/>
+      <Testimonial/>
+      <SignUp/>
         </>
     )
 }

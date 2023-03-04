@@ -36,7 +36,7 @@ export const Header = () => {
           <span className="flex flex-col gap-[5px] ">
             <p className="text-[#172E80] text-[10px] md:text-[16px] ">Savings</p>
             <span className="bg-[#F4F6FF] flex p-[-20px] h-[10px] rounded-full w-[90px] md:w-[119px]  ">
-                <span className="bg-[#FF61EF] w-[30%] h-[10px] rounded-full "></span>
+                <span className="bg-[#FF61EF] w-[30%] h-[7px] md:h-[10px] rounded-full "></span>
             </span>
           </span>
               </span>
@@ -46,7 +46,7 @@ export const Header = () => {
           <span className="flex flex-col gap-[5px] ">
             <p className="text-[#172E80] text-[16px] ">Investments</p>
             <span className="bg-[#F4F6FF] flex p-[-20px] h-[10px] rounded-full w-[90px] md:w-[119px]  ">
-                <span className="bg-[#605EFB] w-[90%] h-[10px] rounded-full "></span>
+                <span className="bg-[#605EFB] w-[90%] h-[7px] md:h-[10px] rounded-full "></span>
             </span>
           </span>
               </span>

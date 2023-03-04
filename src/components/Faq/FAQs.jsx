@@ -73,7 +73,7 @@ export const FAQ = () => {
     }
 
     return (
-        <div className="grid grid-cols-2 my-[30px]">
+        <div className="md:grid flex flex-col-reverse md:grid-cols-2 my-[30px]">
             <div className="flex justify-center bg-[#2E5CFF] p-[30px]">
           <div className=" flex flex-col px-[100px] justify-center items-start gap-[20px] ">
             <h1 className="font-[500] text-[#fff] text-[67px]  ">FAQs</h1>

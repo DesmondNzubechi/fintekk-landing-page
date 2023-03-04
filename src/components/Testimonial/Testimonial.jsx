@@ -76,7 +76,7 @@ const handPrev = () => {
 
 
     return(
-        <div className="bg-[#FBFBFB] flex flex-row gap-[20px] justify-center items-center my-[50px] px-[20px] py-[30px] ">
+        <div className="bg-[#FBFBFB] flex flex-col md:flex-row gap-[20px] justify-center items-center my-[50px] px-[20px] py-[30px] ">
          <div className="flex flex-col gap-[10px] justify-center items-start ">
             <h1 className="text-[25px] text-[3a3a3a]">TESTIMONIALS</h1>
             <h2 className="text-[#172E80] text-[30px]  font-[700] max-w-[350px] ">What Our Customers Say About Us</h2>
@@ -97,7 +97,7 @@ const handPrev = () => {
          </div>
          </div>
         
-         <div className="flex gap-[5px] flex-col items-center ">
+         <div className="flex gap-[5px] flex-center md:flex-col items-center ">
            <BsArrowUp onClick={handPrev} className="text-[#172E80] "/>
             <button className={` px-[10px] py-[3px] text-[16px] text-[${fiCol}]  font-[400] rounded-[50%] bg-[${fiBg}] `}>1</button>
             <button className={` px-[10px] py-[3px] text-[16px] bg-[${seBg}] font-[400] rounded-full text-[${seCol}]  `}>2</button>

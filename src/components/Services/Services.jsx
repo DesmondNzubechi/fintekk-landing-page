@@ -14,7 +14,7 @@ export const Services = () => {
                 <p className=" text-center flex justify-center text-[20px]  font-[300] max-w-[700px] ">We help individuals become more flexible and responsible with their finances and handle  payments smooth and easy. </p>
                 </div>
                </div>
-            <div className="flex justify-center items-center mt-[30px] gap-[40px] flex-row  ">
+            <div className="flex justify-center items-center mt-[30px] gap-[40px] flex-col md:flex-row  ">
                 <div className="bg-[#F4F6FF] p-[20px] min-h-[400px] w-[368px] flex flex-col rounded-[30px] justify-center items-center ">
                     <div className="flex flex-col items-start gap-[10px] ">
                     <h1 className="text-[#172E80] text-[38px] font-[500] ">Easy Payment</h1>

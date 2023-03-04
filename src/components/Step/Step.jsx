@@ -5,7 +5,7 @@ import phone from '../images/app.png';
 export const RegistretionStep = () => {
     return(
         <div className="px-[20px] pt-[70px] pb-[50px]">
-         <div className="flex flex-row justify-around gap-[40px] items-center ">
+         <div className="flex flex-col md:flex-row justify-center md:justify-around gap-[40px] items-center ">
             <div>
             <img src={phone} alt="" />
             </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 export const SignUp = () => {
     return(
-       <div className="flex justify-center px-[15px] py-[50px]">
+       <div className="flex justify-center px-[30px] py-[50px]">
             <div className=" flex flex-col px-[80px] py-[60px] gap-[30px]  rounded-[40px] md:min-w-[700px] lg:min-w-[1000px]  md:mx-[50px] bg-[#2E5CFF] jutify-center md:items-center items-start ">
                 <h1 className=" md:text-center md:self-center text-[25px]  md:text-[50px] text-[#fff] font-[700]  ">
                 Start growing <br /> your wealth today

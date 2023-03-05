@@ -14,7 +14,7 @@ import { NavMobile } from "../Navbar/NavMobile";
 
 export const Home = () => {
     return(
-      <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden ">
         <Navbar/>
         <Header/>
         <Orgs/>

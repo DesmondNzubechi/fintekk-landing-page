@@ -3,7 +3,7 @@ import React from "react";
 
 export const Navbar = () => {
     return(
-      <nav className="flex justify-around items-center shadow-xl py-[20px] px-[30px] flex-row gap-[20px] bg-[#fff]  ">
+      <nav className="md:flex hidden justify-around items-center shadow-xl py-[20px] px-[30px] flex-row gap-[20px] bg-[#fff]  ">
         <a href="" className="text-[28px] font-[500] text-[#2E5CFF] leading-[34%] ">Fintekk</a>
 
         <ul className="flex flex-row justify-center items-center gap-[30px] ">

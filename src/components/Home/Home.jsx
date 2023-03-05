@@ -10,6 +10,7 @@ import { FAQ } from "../Faq/FAQs";
 import { Testimonial } from "../Testimonial/Testimonial";
 import { SignUp } from "../Sign/Sign";
 import { Footer } from "../Footer/Footer";
+import { NavMobile } from "../Navbar/NavMobile";
 
 export const Home = () => {
     return(
@@ -24,6 +25,7 @@ export const Home = () => {
       <Testimonial/>
       <SignUp/>
   <Footer/>
+  <NavMobile/>
         </div>
     )
 }

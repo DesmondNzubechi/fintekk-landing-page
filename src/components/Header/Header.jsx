@@ -19,8 +19,8 @@ export const Header = () => {
               </div>
             </div>
             
-            <div className=" relative h-[500px]  max-w-[500px] ">
-              <img src={LadyImg} alt="A lady" className="bg-[#F4F6FF] w-[400px]  rounded-[64px]   " />
+            <div className=" relative   max-w-[500px] ">
+              <img src={LadyImg} alt="A lady" className="bg-[#F4F6FF] w-[400px] h-[100%]  rounded-[64px]   " />
               <span className="absolute flex shadow-xl shadow-paymenshadow gap-[10px] md:gap-[20px] flex-row items-center rounded-xl top-[200px] p-[10px] md:left-[-140px] left-[-20px] bg-[#fff] ">
           <FaTelegramPlane className="bg-payment rounded text-[20px] md:text-[40px]  text-[#5BCDF0] p-[2px] md:p-[10px] "/>
           <span className="flex flex-col gap-[5px] ">

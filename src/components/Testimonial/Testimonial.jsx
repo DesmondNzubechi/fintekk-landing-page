@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsArrowUp, BsArrowDown } from "react-icons/bs";
-import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
+import { AiFillStar, AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineStar } from 'react-icons/ai';
 
 
 export const Testimonial = () => {
@@ -77,9 +77,9 @@ const handPrev = () => {
 
     return(
         <div className="bg-[#FBFBFB] flex flex-col md:flex-row gap-[20px] justify-center items-center my-[50px] px-[20px] py-[30px] ">
-         <div className="flex flex-col gap-[10px] justify-center items-start ">
-            <h1 className="text-[25px] text-[3a3a3a]">TESTIMONIALS</h1>
-            <h2 className="text-[#172E80] text-[30px]  font-[700] max-w-[350px] ">What Our Customers Say About Us</h2>
+         <div className="flex flex-col text-center md:text-left  gap-[10px] justify-center items-center md:items-start ">
+            <h1 className="text-[25px]  text-[3a3a3a]">TESTIMONIALS</h1>
+            <h2 className="text-[#172E80]  text-[30px]  font-[700] max-w-[350px] ">What Our Customers Say About Us</h2>
          </div>
          <div>
          <div className="bg-[#ffffff] max-w-[600px] px-[24px] py-[30px] flex flex-col rounded-[24px] gap-[20px]  ">
@@ -98,11 +98,13 @@ const handPrev = () => {
          </div>
         
          <div className="flex gap-[5px] flex-center md:flex-col items-center ">
-           <BsArrowUp onClick={handPrev} className="text-[#172E80] "/>
+          <AiOutlineArrowLeft onClick={handPrev} className="text-[#172E80] flex md:hidden"/>
+           <BsArrowUp onClick={handPrev} className="text-[#172E80] hidden md:flex "/>
             <button className={` px-[10px] py-[3px] text-[16px] text-[${fiCol}]  font-[400] rounded-[50%] bg-[${fiBg}] `}>1</button>
             <button className={` px-[10px] py-[3px] text-[16px] bg-[${seBg}] font-[400] rounded-full text-[${seCol}]  `}>2</button>
             <button className={`px-[10px] py-[3px] text-[16px] bg-[${ThBg}] font-[400] rounded-full text-[${ThCol}] `}>3</button>
-            <BsArrowDown onClick={handleNext}  className="text-[#172E80]  "/>
+            <BsArrowDown onClick={handleNext}  className="text-[#172E80]  hidden md:flex "/>
+            <AiOutlineArrowRight onClick={handleNext} className="text-[#172E80] flex md:hidden"/>
          </div>
         </div>
     )

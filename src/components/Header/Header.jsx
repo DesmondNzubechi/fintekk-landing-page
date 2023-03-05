@@ -8,12 +8,12 @@ import { BiBarChart } from 'react-icons/bi';
 
 export const Header = () => {
     return(
-        <div className="py-[70px] px-[40px] gap-[130px]  flex flex-col md:flex-row justify-center ">
-            <div className="flex justify-center flex-col gap-[10px]">
-                <h1 className="font-[500]  text-[38px] md:text-[50px] max-w-[503px] text-[#172E80] ">Pay, Invest, Save your Cash with a single bank</h1>
+        <div className="py-[70px] px-[40px] gap-[130px]   flex flex-col md:flex-row justify-center ">
+            <div className="flex justify-center md:text-left text-center flex-col gap-[10px]">
+                <h1 className="font-[500]  text-[38px] md:text-[50px]  max-w-[503px] text-[#172E80] ">Pay, Invest, Save your Cash with a single bank</h1>
                 <p className="text-[24px] text-[#777777]  max-w-[503px] font-[399] ">Fintekk is the bank that does it all. Manage everything directly and easy with fintekk.</p>
-              <button className="bg-[#2E5CFF] ronded-[16px] px-[24px] py-[16px] w-fit text-[#fff] text-[20px] rounded-2xl ">Sign Up for Free</button>
-              <div className="flex flex-col md:flex-row gap-[20px] py-[10px] items-start ">
+              <button className="bg-[#2E5CFF] ronded-[16px] px-[24px] py-[16px] w-fit text-[#fff] text-[20px] md:self-start self-center rounded-2xl ">Sign Up for Free</button>
+              <div className="flex flex-col md:flex-row items-center gap-[20px] py-[10px] items-start ">
                 <button className="flex flex-row gap-[10px] justify-center items-center border px-[24px] py-[16px]  rounded-2xl "> <IoLogoGooglePlaystore className="text-[#3A3A3A] text-[18px] "/> <span className="text-[#3A3A3A] text-[18px] "> Get on Android </span></button>
                 <button className="flex flex-row gap-[10px] justify-center items-center border px-[24px] py-[16px] rounded-2xl "><BsApple className="text-[#3A3A3A] text-[18px] "/> <span className="text-[#3A3A3A] text-[18px] ">Get on Apple</span></button>
               </div>
